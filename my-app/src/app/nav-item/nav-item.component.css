@@ -1,0 +1,9 @@
+button {
+    width: 8%;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+    background-color: lightslategrey;
+    color: white;
+    float: left;
+}
