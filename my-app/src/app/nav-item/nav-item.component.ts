@@ -1,21 +1,19 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-@Component({
-  selector: 'app-litem',
+@Component(
+{
+  selector: 'app-nav-item',
   templateUrl: './nav-item.component.html',
   styleUrls: ['./nav-item.component.css']
 })
-export class LitemComponent implements OnInit {
 
+export class NavItemComponent implements OnInit 
+{
   @Input() item;
-
+  
   constructor() { }
 
   ngOnInit() {
-
   }
 
-  myFunc() {
-    console.log('child: ' + this.item.id);
-  }
 }

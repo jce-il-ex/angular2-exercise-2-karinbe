@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { ListComponent } from './nav-menu.component';
+import { NavMenuComponent } from './nav-menu.component';
 
-describe('ListComponent', () => {
-  let component: ListComponent;
-  let fixture: ComponentFixture<ListComponent>;
+describe('NavMenuComponent', () => {
+  let component: NavMenuComponent;
+  let fixture: ComponentFixture<NavMenuComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ListComponent ]
+      declarations: [ NavMenuComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ListComponent);
+    fixture = TestBed.createComponent(NavMenuComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
