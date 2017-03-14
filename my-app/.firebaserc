@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "my-app-d1f59"
+    "default": "my-app-d1f59",
+    "ex2-karin": "ex2-karin"
   }
 }
